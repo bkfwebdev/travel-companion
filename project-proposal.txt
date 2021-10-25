@@ -1,0 +1,65 @@
+Project Proposal
+Step Two of your first capstone is all about fleshing out your project idea. For this step,
+please write a proposal based on the project idea you agreed on with your mentor. 
+
+This proposal should be a 1-2 page document that answers the following questions:
+1. What goal will your website be designed to achieve?
+
+Web app will be a travel companinon that gives local weather, lodging, and, restaraunts and entertainment based on user prefrences
+
+2. What kind of users will visit your site? In other words, what is the demographic of your users?
+
+Anyone who likes to travel or travels frequently for work or vacation.
+
+3. What data do you plan on using? You may have not picked your actual API yet,
+which is fine, just outline what kind of data you would like it to contain.
+
+May need to consume multiple APIs
+need the following data
+a. weather
+b. nearby lodging
+c. nearby restauraunts
+d. nearby entertainment
+
+
+4. In brief, outline your approach to creating your project (knowing that you may not
+know everything in advance and that these details might change later). 
+
+The first thing I want to do is find reliable stable free APIs to consume
+Once that is done i want to desing very basic login, input form for preferences, location, etc
+and display info from the API calls based on user preferences
+
+Answer questions like the ones below, but feel free to add more information:
+a. What does your database schema look like?
+
+user 
+{ email 
+Password
+Prefrences {
+    location(s)(will store multiple locations for user)
+    cuisine(e.g. american, chinese, italian, japanese, etc)
+    entertainment(movies, music, theatre, etc)
+}
+}
+
+b. What kinds of issues might you run into with your API?
+
+Hopefully i will be able to find a stable API and it is likely the user schema will change based what info is available from the API
+
+c. Is there any sensitive information you need to secure?
+
+Passwords and emails/user-names will need to be encrypted
+
+d. What functionality will your app include?
+described above, suggestions for lodging , food, entertainment based on location and prefrences...
+
+e. What will the user flow look like?
+
+Login - select location and prefrences, show view with weather in selected location and suggestions from prefrences
+
+f. What features make your site more than CRUD? Do you have any stretch
+goals?
+
+retrieving data from aa seperate API based on stored data makes it more than just CRUD
+I'll be happy if I can create a MVP in a reasonable amount of time...
+
