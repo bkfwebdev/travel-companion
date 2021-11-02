@@ -1,0 +1,18 @@
+Hotel API
+https://rapidapi.com/yahoo.finance.low.latency/api/hotels-com-free/
+
+Restaraunt API
+https://rapidapi.com/hoppitapi/api/hoppit-restaurant-guide/
+
+Entertainment APIs
+
+music
+https://www.songkick.com/developer
+
+bars
+https://www.programmableweb.com/api/barzz
+
+movie theatres
+https://developer.movieglu.com/v2/api-index/
+
+
